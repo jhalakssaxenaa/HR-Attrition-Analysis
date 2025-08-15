@@ -1,0 +1,87 @@
+# HR Attrition Analysis – Power BI & SQL
+
+## 📌 Project Overview  
+This interactive Power BI dashboard provides a **deep dive into employee attrition** patterns across job roles, demographics, and satisfaction levels.  
+Using **SQL Server** for data extraction and transformation, the project enables HR teams to identify **attrition hotspots** and take data-driven decisions to improve retention.  
+
+---
+
+## 🎯 Business Problem  
+Employee turnover increases recruitment costs, affects productivity, and impacts morale.  
+The HR department needed an **easy-to-use tool** to:  
+- Identify **who is leaving** and **why**.  
+- Pinpoint **roles and departments** with high attrition.  
+- Understand **employee satisfaction trends** and their correlation with exits.  
+
+---
+
+## 📊 Dashboard Walkthrough  
+
+### **1️⃣ Main Dashboard – HR Attrition Overview**  
+![HR Attrition Analysis](main%20dashboard.jpg)  
+
+**Business Insights:**  
+- **Attrition Rate:** 16% across the organization.  
+- **Top 3 Roles by Attrition:** Laboratory Technician, Sales Executive, Research Scientist.  
+- **Demographic Trend:**  
+  - Females (age ~29) show higher attrition.  
+  - Males peak at ages 28–33.  
+- **Marital Status Impact:** Minimal — married employees are not significantly more likely to leave.  
+
+**Business Implication:** Targeted retention strategies should focus on **young professionals in high-attrition roles**, especially in the first few years of service.  
+
+---
+
+### **2️⃣ Drill-Through Menu – Select Job Role**  
+![Job Role Navigation](drill%20through%201.jpg)  
+
+**Purpose:**  
+- Allows HR managers to **zoom in** on a specific job role.  
+- Enables role-specific attrition analysis without cluttering the main dashboard.  
+
+**Business Implication:** Reduces analysis time and improves focus by enabling **direct navigation to problem areas**.  
+
+---
+
+### **3️⃣ Job Role View – Research Scientist Example**  
+![Research Scientist Insights](drill%20through%20page%202.jpg)  
+
+**Key Metrics:**  
+- **Total Employees:** 178  
+- **Attrition Count:** 30 (16.8%)  
+- **Job Satisfaction:** 2.9★  
+- **Environment Satisfaction:** 2.7★  
+- **Overtime Impact:** Higher attrition among employees with overtime.  
+- **Promotion Impact:** Most attrition occurs when promotions are delayed beyond 2 years.  
+
+**Business Implication:**  
+For **Research Scientists**, attrition is strongly linked to **career progression delays** and **work-life balance issues**. Improving promotion timelines and reducing overtime could lower turnover.  
+
+---
+
+## 🛠 Tools & Technologies  
+- **Power BI** – Data modeling, DAX measures, interactive dashboards  
+- **SQL Server** – Data extraction and transformation  
+- **Excel** – Data cleaning and preprocessing  
+
+---
+
+## 📂 Dataset  
+An anonymized HR dataset containing:  
+- Employee demographics  
+- Job role, department, and tenure  
+- Salary, hike percentages, and overtime data  
+- Job satisfaction, environment satisfaction, and work-life balance ratings  
+
+---
+
+## 🚀 How to Use  
+1. Clone/download this repository.  
+2. Open the `.pbix` file in **Power BI Desktop**.  
+3. Use slicers and drill-through buttons to explore the data.  
+
+---
+
+## 📌 Author  
+**Jhalak Saxena** – Data Analyst  
+
